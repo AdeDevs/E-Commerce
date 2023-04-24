@@ -1,0 +1,6 @@
+body {
+    background-color: rgb(254, 246, 232);
+    background-image: url('../assets/bg.jpeg');
+    background-size: cover;
+    height: 100vh;
+}
