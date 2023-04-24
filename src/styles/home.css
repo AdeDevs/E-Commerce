@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Montserrat&family=Public+Sans:wght@100;400;800&display=swap');
+
 body {
     background-color: rgb(254, 246, 232);
     background-image: url('../assets/bg.jpeg');
     background-size: cover;
     height: 100vh;
+}
+
+h1 {
+    font-family: 'Public Sans';
 }
