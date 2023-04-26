@@ -10,7 +10,7 @@ function HomeScreen() {
       <header>
         <div className="top">
           <h1>VINTAGEFUR</h1>
-          <ul>
+          {/* <ul>
             <li>
               <a href="#">home</a>
             </li>
@@ -26,7 +26,7 @@ function HomeScreen() {
             <li>
               <a href="#">contact</a>
             </li>
-          </ul>
+          </ul> */}
           <h2>
             <a href="#">LOGIN</a>
           </h2>
@@ -60,10 +60,9 @@ function toggleSwiper() {
     <SwiperSlide>
       <div className="furniture">
         <section>
-          <h1>FURNITURE</h1>
+          <h1>SHOP</h1>
           <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some fo
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis repudiandae sapiente sunt ipsam cupiditate expedita deleniti illo, tempore dolorem voluptatibus vero quibusdam explicabo eligendi adipisci et temporibus id, reprehenderit qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis repudiandae sapiente sunt ipsam cupiditate expedita deleniti illo.
           </p>
         </section>
 

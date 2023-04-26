@@ -75,10 +75,11 @@ a:hover {
     height: 90vh;
     text-align: center;
     min-height: 30vh;
+    padding-top: 50px;
     max-height: 80vh;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    margin: 100px auto 0px auto;
+    margin: 15px auto 0px auto;
 }
 
 .furniture h1 {
