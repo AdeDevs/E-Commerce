@@ -64,6 +64,11 @@ a:hover {
     text-transform: uppercase;
 }
 
+.swipe {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .furniture {
     background-color: transparent;
     width: 75%;
