@@ -3,6 +3,8 @@ import { Navigation, Pagination, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "../styles/home.css";
+import ServicesScreen from "./Services";
+import AboutScreen from "./About";
 
 function HomeScreen() {
   return (
@@ -28,7 +30,7 @@ function HomeScreen() {
             </li>
           </ul> */}
           <h2>
-            <a href="#">LOGIN</a>
+           <p>LOGIN</p>
           </h2>
         </div>
         <div className="swipe">
@@ -51,6 +53,8 @@ function HomeScreen() {
           </Swiper>
         </div>
       </header>
+      <ServicesScreen />
+      <AboutScreen />
     </div>
   );
 }
@@ -67,7 +71,7 @@ function toggleSwiper() {
         </section>
 
         <button className="ctc-btn">
-          <a href="#">contact us</a>
+          <p>contact us</p>
         </button>
       </div>
     </SwiperSlide>

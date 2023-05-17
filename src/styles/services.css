@@ -1,0 +1,64 @@
+.services {
+    background-color: white;
+    height: 89vh;
+    box-sizing: border-box;
+    padding-top: 6%;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.services .main h1 {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 15px auto;
+}
+
+.services .main p {
+    margin: 15px auto;
+    padding: 0px 40px;
+}
+
+.services .options {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 7%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services .options div {
+    width: 250px;
+    margin: 10px auto;
+}
+
+.services .options div h1 {
+    font-size: 24px;
+    margin: 10px auto;
+    text-transform: uppercase;
+}
+
+.services .options div p {
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.services .options div .read-btn {
+    background-color: #FFB607;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 60%;
+    padding: 15px 0;
+}
+.services .options div .read-btn:hover {
+    background-color: black;
+    transition: 300ms;
+}
