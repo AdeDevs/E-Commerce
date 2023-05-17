@@ -107,12 +107,12 @@ a:hover {
     text-transform: uppercase;
     padding: 15px 35px;
     font-family: 'Poppins', sans-serif;
-    background-color: #FFB607;
+    background-color: black;
     font-size: 18px;
 }
 
 .ctc-btn:hover {
-    background-color: black;
+    background-color: #FFB607;
     transition: 400ms;
 }
 
