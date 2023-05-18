@@ -1,0 +1,59 @@
+.whatwesell {
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.whatwesell .more-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+}
+
+.whatwesell .more-info div {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.whatwesell .more-info div .box1,  .whatwesell .more-info div .box2{
+    background-image: url('../assets//faucet.webp');
+    background-color: red;
+    margin: 0 auto;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.whatwesell .more-info div .box1 .center, .whatwesell .more-info div .box2 .center {
+    background-color: transparent;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    opacity: 0;
+}
+
+.whatwesell .more-info div .box1 .center:hover, .whatwesell .more-info div .box2 .center:hover {
+    opacity: 1;
+    transition: 300ms;
+}
+
+.whatwesell .more-info div .box2 {
+    background-image: url('../assets/kitchen.webp');
+}
+
+.whatwesell .more-info div .search-icon {
+    background-color: #FFB607;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+}
+
+.whatwesell .more-info div .search-icon img {
+    width: 30px;
+}
