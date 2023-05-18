@@ -152,3 +152,29 @@ a:hover {
     color: #ffbe25;
     transition: 300ms;
 }
+
+@media(max-width:1300px) {
+    header {
+        transition: 300ms;
+        height: auto;
+    }
+    .furniture {
+        padding-top: 10px;
+        height: auto;
+        padding-bottom: 13vh;
+    }
+    .furniture h1 {
+        font-size: 3.3em;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .furniture p {
+        font-size: 15px;
+        height: 10vh;
+        overflow: hidden;
+        padding-bottom: 10px;
+    }
+    .swiper-button-next, .swiper-button-prev{
+        display: none;
+    }
+}

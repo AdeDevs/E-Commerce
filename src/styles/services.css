@@ -62,3 +62,63 @@
     background-color: black;
     transition: 300ms;
 }
+
+.services {
+        height: auto;
+        font-size: 13px;
+        transition: 300ms;
+    }
+    .services img {
+        width: 70px;
+        transition: 300ms;
+    }
+    .services .main h1 {
+        font-size: 20px;
+        transition: 300ms;
+    }
+    .services .options div h1 {
+        font-size: 18px;
+        font-weight: bold;
+        transition: 300ms;
+    }
+    .services .options div p {
+        font-size: 13px;
+        transition: 300ms;
+    }
+    .services .options div .read-btn {
+        font-size: 13px;
+        width: 60%;
+        padding: 10px 0;
+        transition: 300ms;
+    }
+
+@media(max-width:1300px){
+    .services {
+        height: auto;
+        font-size: 13px;
+        transition: 300ms;
+    }
+    .services img {
+        width: 70px;
+        transition: 300ms;
+    }
+    .services .main h1 {
+        font-size: 20px;
+        transition: 300ms;
+    }
+    .services .options div h1 {
+        font-size: 18px;
+        font-weight: bold;
+        transition: 300ms;
+    }
+    .services .options div p {
+        font-size: 13px;
+        transition: 300ms;
+    }
+    .services .options div .read-btn {
+        font-size: 13px;
+        width: 60%;
+        padding: 10px 0;
+        transition: 300ms;
+    }
+}

@@ -64,14 +64,14 @@ function toggleSwiper() {
     <SwiperSlide>
       <div className="furniture">
         <section>
-          <h1>SHOP</h1>
+          <h1>FURNITURE</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis repudiandae sapiente sunt ipsam cupiditate expedita deleniti illo, tempore dolorem voluptatibus vero quibusdam explicabo eligendi adipisci et temporibus id, reprehenderit qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis repudiandae sapiente sunt ipsam cupiditate expedita deleniti illo.
           </p>
         </section>
 
         <button className="ctc-btn">
-          <p>contact us</p>
+          contact us
         </button>
       </div>
     </SwiperSlide>

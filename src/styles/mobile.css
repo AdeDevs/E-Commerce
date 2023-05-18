@@ -1,0 +1,56 @@
+@media (max-width:1300px) {
+    .about section {
+        height: auto;
+        padding: 0 30px;
+    }
+    .about img {
+        width: 400px;
+        transition: 300ms;
+        margin: 30px auto;
+        display: block;
+    }
+    .services {
+        height: auto;
+        font-size: 13px;
+        transition: 300ms;
+    }
+    .services img {
+        width: 70px;
+        transition: 300ms;
+    }
+    .services .main h1 {
+        font-size: 20px;
+        transition: 300ms;
+    }
+    .services .options div h1 {
+        font-size: 18px;
+        font-weight: bold;
+        transition: 300ms;
+    }
+    .services .options div p {
+        font-size: 13px;
+        transition: 300ms;
+    }
+    .services .options div .read-btn {
+        font-size: 13px;
+        width: 60%;
+        padding: 10px 0;
+        transition: 300ms;
+    }
+    .about section div h1 {
+        font-size: 20px;
+    }
+    .about section div p {
+        font-size: 10px;
+    }
+    .about section div .read-btn {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+}
+
+@media (max-width:800px) {
+    .about img {
+        width: 300px;
+    }
+}
