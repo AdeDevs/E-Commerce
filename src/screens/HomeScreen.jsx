@@ -5,6 +5,7 @@ import "swiper/css/navigation";
 import "../styles/home.css";
 import ServicesScreen from "./Services";
 import AboutScreen from "./About";
+import FurnituresScreen from "./Furmitures";
 
 function HomeScreen() {
   return (
@@ -55,6 +56,7 @@ function HomeScreen() {
       </header>
       <ServicesScreen />
       <AboutScreen />
+      <FurnituresScreen />
     </div>
   );
 }
