@@ -1,0 +1,88 @@
+.who {
+    background-image: url('../assets/yellow.webp');
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    padding: 100px 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.who h1 {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 15px auto;
+}
+
+.who p {
+    margin: 15px auto;
+    padding: 0px 40px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.who .yellow {
+    box-sizing: border-box;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.who .yellow p{
+    text-transform: none;
+    margin: 50px auto;
+    font-size: 15px;
+}
+
+.who .yellow button {
+    background-color: #000;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 20%;
+    padding: 15px 0;
+}
+
+.who .yellow button:hover {
+    background-color: white;
+    color: #000;
+    transition: 300ms;
+}
+
+@media(max-width:1300px) {
+    .who {
+        height: auto;
+    }
+    .who h1 {
+        margin: 2px auto;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    .who p {
+        margin: 2px auto;
+        font-size: 13px;
+    }
+    .who .yellow {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .who .yellow p {
+        font-size: 11px;
+        margin: 30px auto;
+    }
+    .who .yellow button {
+        font-size: 13px;
+        padding: 20px 0px;
+        margin-top: 20px;
+        width: 40%;
+    }
+}

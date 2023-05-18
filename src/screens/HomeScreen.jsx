@@ -6,6 +6,7 @@ import "../styles/home.css";
 import ServicesScreen from "./Services";
 import AboutScreen from "./About";
 import FurnituresScreen from "./Furmitures";
+import WhoWeAre from "./Who";
 
 function HomeScreen() {
   return (
@@ -57,6 +58,7 @@ function HomeScreen() {
       <ServicesScreen />
       <AboutScreen />
       <FurnituresScreen />
+      <WhoWeAre />
     </div>
   );
 }

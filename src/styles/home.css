@@ -153,7 +153,7 @@ a:hover {
     transition: 300ms;
 }
 
-@media(max-width:1300px) {
+@media(max-width:900px) {
     header {
         transition: 300ms;
         height: auto;
