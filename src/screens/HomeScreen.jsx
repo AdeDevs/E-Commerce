@@ -7,6 +7,7 @@ import ServicesScreen from "./Services";
 import AboutScreen from "./About";
 import FurnituresScreen from "./Furmitures";
 import WhoWeAre from "./Who";
+import ProjectsScreen from "./Projects";
 
 function HomeScreen() {
   return (
@@ -59,6 +60,7 @@ function HomeScreen() {
       <AboutScreen />
       <FurnituresScreen />
       <WhoWeAre />
+      <ProjectsScreen />
     </div>
   );
 }
